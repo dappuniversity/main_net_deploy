@@ -1,0 +1,28 @@
+{
+  "name": "main_net_deploy",
+  "version": "1.0.0",
+  "description": "main_net_deploy",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "dotenv": "^4.0.0",
+    "ganache-cli": "^6.1.8",
+    "nodemon": "^1.17.3",
+    "solidity-coverage": "^0.4.15",
+    "truffle": "5.0.0-beta.0",
+    "truffle-flattener": "^1.2.3",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0"
+  }
+}
